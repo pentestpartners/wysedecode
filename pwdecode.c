@@ -1,3 +1,6 @@
+// Basic C code to decrypt Wyse password for decoding
+// Reverse engineering and C mangulation by David Lodge
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
