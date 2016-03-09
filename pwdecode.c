@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void NFuseDecode(unsigned char *src, int length, unsigned char *dst)
+void NFuseDecode(char *src, int length, unsigned char *dst)
 {
    unsigned char a;
    int i;
@@ -32,11 +32,12 @@ void NFuseDecode(unsigned char *src, int length, unsigned char *dst)
    dst[length]='\0';
 }
 
-void main(int argc, char **argv)
+int main(int argc, char **argv)
 {
    unsigned char buffer[256];
-   int i;
 
    NFuseDecode(argv[1], strlen(argv[1]), buffer);
    printf("%s\n", buffer);
+
+   return 1;
 }
