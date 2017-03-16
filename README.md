@@ -1,3 +1,5 @@
+Repo is deprecated, please use https://github.com/pentestpartners/Password-Decoders instead
+
 # wysedecode
 Some very simple and hacked together C to decode a stored Wyse password. This is pretty much a direct translation from the assembly language and probably needs translation to a different language.
 
